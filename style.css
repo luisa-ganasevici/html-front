@@ -1,0 +1,16 @@
+@charset "UTF-8";
+ 
+body{
+    background-color: rgb(51, 51, 51);
+    color:aliceblue
+}
+ul {
+    display: flex;
+    justify-content: space-evenly
+    
+}
+
+a{
+    color: rgb(138, 138, 245);
+    text-decoration: none;
+}
