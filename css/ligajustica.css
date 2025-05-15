@@ -1,0 +1,32 @@
+section{
+    display: flex;
+}
+
+@media (max-width: 600px){
+    section{
+        flex-direction: column;
+    }
+}
+
+
+.hero-box{
+    width: 30vw;
+    background-color: aliceblue;
+    text-align: center;
+    border: gold 7px solid;
+}
+
+@media(min-width: 768px){
+    .hero-box{
+        border: red 10px groove;
+    }
+    }
+
+.hero-box img{
+width: 30vw;
+height: 50vh;
+}
+.hero-box p{
+    font-size: 0.75rem;
+}
+
